@@ -59,88 +59,9 @@ main {
         height: 120px;
     }
 }
-@media screen and (max-width: 445px) {
-    #image {
-        width: 100px;
-        height: 100px;
-    }
-    #bodyS {
-        font-size: 13.5px;
-    }
-}
-@media screen and (max-width: 436px) {
-    #image {
-        width: 95px;
-        height: 95px;
-    }
-    #table {
-        border: none;
-    }
-}
-@media screen and (max-width: 410px) {
-    #image {
-        width: 90px;
-        height: 90px;
-        margin-top: 2rem;
-    }
-    #bodyS {
-        margin-top: 0.3rem;
-    }
-}
-@media screen and (max-width: 401px) {
-    #image {
-        margin-left: 55px;   /*esta muy important*/
-        margin-right: 75px;
-    }
-}
-@media screen and (max-width: 382px) {
-    #image {
-        margin-right: 2rem;
-        left: 0.5rem;
-    }
-}
-@media screen and (max-width: 361.33px) {
-    #image {
-        margin-right: 3rem;
-        left: 0.25rem;
-    } 
-}
+
 .responsiveH {
     text-transform: uppercase;
-    font-family: inherit;
-    margin: auto;
-    margin-bottom: 12px;
-}
-@media screen and (max-width: 325px) {
-    #image {
-        margin-right: 3.75rem;
-        left: 0.17rem;
-        width: 72px;
-        height: 72px;
-    }
-    svg {
-        width: 24px;
-        height: 24px;
-    }
-    .responsiveH {
-        font-size: 9px;
-        text-transform: uppercase;
-    }
 }
 
-/**resize icons e titoli**/
-@media screen and (max-width: 401.33px) {
-    h4 #responsiveH {
-        font-size: 10px
-    }
-    h1, h2, h3 {
-        font-size: 12px;
-    }
-    p {
-        margin: 1%;
-        font-size: 14px;
-        text-rendering: optimizeLegibility;
-    }
-}
 /**fine resize, sarie ora*/
-
