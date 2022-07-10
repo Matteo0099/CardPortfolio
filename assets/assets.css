@@ -35,14 +35,6 @@ main {
     background-color: #000;
 }*/
 
-#image {
-    align-items: center;
-    align-self: center;
-    width: 150px;
-    height: 150px;
-    margin: auto;
-}
-
 #bodyS {
     margin: 1rem;
 }
@@ -51,16 +43,28 @@ main {
     text-transform: uppercase;
 }
 
-@media screen and(max-height: 888px) {
-    main {
-        padding-top: 7rem;
-    }
+.card-img-top {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
-@media screen and (max-height: 1100px) {
-    main {
-        padding-top: 12rem;
-    }
-}
+#playerCardImage {
+    align-items: center;
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    object-fit: cover;
+  }
+
+
+ @media all and (max-width:768px){
+  #playerCardImage {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+  }
+ }
 
 /**fine resize, sarie ora*/
