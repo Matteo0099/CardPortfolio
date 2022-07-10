@@ -51,4 +51,17 @@ main {
     text-transform: uppercase;
 }
 
+@media screen and(max-height: 888px) {
+    main {
+        padding-top: 7rem;
+    }
+}
+
+@media screen and (max-height: 1100px) {
+    main {
+        padding-top: 12rem;
+    }
+
+}
+
 /**fine resize, sarie ora*/
