@@ -67,4 +67,27 @@ main {
   }
  }
 
+ @media screen and (max-width: 650px) {
+    #Table {
+        padding-top: 7rem;
+    }
+ }
+
+ @media screen and (max-width: 550px) {
+    #Table {
+        padding-top: 10rem;
+    }
+ }
+
+ @media screen and (max-width: 456px) {
+    #Table {
+        padding-top: 14.5rem;
+    }
+ }
+ @media screen and (max-width: 420px) {
+    #Table {
+        padding-top: 18rem;
+    }
+ }
+
 /**fine resize, sarie ora*/
