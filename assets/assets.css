@@ -67,26 +67,26 @@ main {
   }
  }
 
- @media screen and (max-width: 650px) {
+ @media screen and (max-width: 950px) {
     #Table {
         padding-top: 7rem;
     }
  }
 
- @media screen and (max-width: 550px) {
+ @media screen and (max-width: 850px) {
     #Table {
         padding-top: 10rem;
     }
  }
 
- @media screen and (max-width: 456px) {
+ @media screen and (max-width: 600px) {
     #Table {
         padding-top: 14.5rem;
     }
  }
- @media screen and (max-width: 420px) {
+ @media screen and (max-width: 450px) {
     #Table {
-        padding-top: 18rem;
+        padding-top: 16rem;
     }
  }
 
