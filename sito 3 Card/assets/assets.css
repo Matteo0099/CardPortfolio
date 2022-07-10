@@ -1,0 +1,146 @@
+@import url('http://fonts.cdnfonts.com/css/rubik');
+
+/*rubik fonts --- similar poppins*/
+
+*, html, body { 
+    font-family: "Rubik", sans-serif; 
+    align-items: center;
+    align-self: center;
+    margin: auto;
+}
+
+#table {
+    padding-inline: auto;
+    max-width: 25rem;
+    padding: auto;
+    border-radius: 40px !important;                       /* not working */
+    border-width: 5px !important;                        /* not working */
+    border: rgba(50, 50, 50, 0.9) !important;          /* not working */
+    padding-top: 1%;
+    margin: 0px auto;
+}
+
+main {
+    margin: auto;   /*magic*/
+    margin-top: auto;
+    border: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+/*    background-color: #999;
+    color: #000;  */
+}/*
+::-webkit-scrollbar-button {
+    background-color: #000;
+}*/
+
+#image {
+    align-items: center;
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+#bodyS {
+    margin: 1rem;
+}
+
+@media screen and (max-width: 450px) {
+    #bodyS {
+        margin: 1rem;
+        font-size: 15px
+    }
+}
+@media screen and (max-width: 480px) {
+    #image {
+        width: 120px;
+        height: 120px;
+    }
+}
+@media screen and (max-width: 445px) {
+    #image {
+        width: 100px;
+        height: 100px;
+    }
+    #bodyS {
+        font-size: 13.5px;
+    }
+}
+@media screen and (max-width: 436px) {
+    #image {
+        width: 95px;
+        height: 95px;
+    }
+    #table {
+        border: none;
+    }
+}
+@media screen and (max-width: 410px) {
+    #image {
+        width: 90px;
+        height: 90px;
+        margin-top: 2rem;
+    }
+    #bodyS {
+        margin-top: 0.3rem;
+    }
+}
+@media screen and (max-width: 401px) {
+    #image {
+        margin-left: 55px;   /*esta muy important*/
+        margin-right: 75px;
+    }
+}
+@media screen and (max-width: 382px) {
+    #image {
+        margin-right: 2rem;
+        left: 0.5rem;
+    }
+}
+@media screen and (max-width: 361.33px) {
+    #image {
+        margin-right: 3rem;
+        left: 0.25rem;
+    } 
+}
+.responsiveH {
+    text-transform: uppercase;
+    font-family: inherit;
+    margin: auto;
+    margin-bottom: 12px;
+}
+@media screen and (max-width: 325px) {
+    #image {
+        margin-right: 3.75rem;
+        left: 0.17rem;
+        width: 72px;
+        height: 72px;
+    }
+    svg {
+        width: 24px;
+        height: 24px;
+    }
+    .responsiveH {
+        font-size: 9px;
+        text-transform: uppercase;
+    }
+}
+
+/**resize icons e titoli**/
+@media screen and (max-width: 401.33px) {
+    h4 #responsiveH {
+        font-size: 10px
+    }
+    h1, h2, h3 {
+        font-size: 12px;
+    }
+    p {
+        margin: 1%;
+        font-size: 14px;
+        text-rendering: optimizeLegibility;
+    }
+}
+/**fine resize, sarie ora*/
+
